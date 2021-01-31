@@ -1,0 +1,15 @@
+{
+    "name": "fgonzalez2019/password-check",
+    "description": "Login password checker",
+    "homepage": "http://www.amsterdapp.nl",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "require" : {
+        "bjeavons/zxcvbn-php": "^1.2"
+    },
+    "require-dev": {
+        "codeception/codeception": "^4.1",
+        "codeception/mockery-module": "^0.4.0",
+        "mockery/mockery": "^1.4"
+    }
+}

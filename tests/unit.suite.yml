@@ -1,0 +1,3 @@
+suite_namespace: App\Tests
+suite_class: UnitTester
+actor: UnitTester
