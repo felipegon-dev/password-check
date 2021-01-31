@@ -6,7 +6,7 @@
  * @since             1.0.0
  *
  * @wordpress-plugin
- * Plugin Name:       Password Check
+ * Plugin Name:       felipegon-dev Password Check
  * Description:       Avoid login without a secure password
  * Version:           1.0.0
  * Author:            Felipe Gonzalez Lopez
@@ -19,18 +19,6 @@
 use PasswordCheck\App\Application\Init\Password_Check_Activator;
 use PasswordCheck\App\Application\Init\Password_Check_Deactivator;
 use PasswordCheck\App\Application\Init\Password_Check;
-
-// Enable WP_DEBUG mode
-define( 'WP_DEBUG', true );
-// Enable Debug logging to the /wp-content/debug.log file
-define( 'WP_DEBUG_LOG', true );
-// Disable display of errors and warnings
-define( 'WP_DEBUG_DISPLAY', true );
-// @ini_set( 'display_errors', 0 );
-// Use dev versions of core JS and CSS files (only needed if you are modifying these core files)
-define( 'SCRIPT_DEBUG', true );
-
-
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
